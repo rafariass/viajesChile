@@ -65,6 +65,11 @@ header {
     background-image: url('../img/carousel3.jpg');
 }
 
+.hr {
+    border: 2px solid #17a2b8;
+    margin: 2rem 0px;
+}
+
 @media (min-width: 992px) {
     .header-pt {
         padding-top: 3rem;

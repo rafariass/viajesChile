@@ -13,3 +13,8 @@ window.addEventListener('scroll', function () {
     header.classList.toggle('header-border', window.scrollY > 1);
     header.classList.toggle('header-pt', window.scrollY < 1);
 });
+
+// Oculta el navbar-collapse al hacer click dentro del menu en modo responsive
+$('.nav-link').click(function() {
+    $('.navbar-collapse').collapse('hide');
+});
